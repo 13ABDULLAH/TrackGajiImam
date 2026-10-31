@@ -1,0 +1,26 @@
+{
+  "name": "imam-tracker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mobile-first PWA for imams in Malaysia to log the fardu prayers they lead and calculate monthly pay, with prayer-time push reminders.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4",
+    "chart.js": "^4.5.1",
+    "idb-keyval": "^6.2.1",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^2.0.0",
+    "workbox-core": "^7.4.1",
+    "workbox-precaching": "^7.4.1",
+    "workbox-routing": "^7.4.1"
+  }
+}
